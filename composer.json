@@ -1,0 +1,26 @@
+{
+    "name": "gi/laminas-auth",
+    "type": "library",
+    "authors": [
+        {
+            "name": "George Istomin",
+            "email": "gi.screamer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laminas/laminas-authentication": "^2.16",
+        "laminas/laminas-crypt": "^3.11",
+        "laminas/laminas-form": "^3.19",
+        "laminas/laminas-mvc": "^3.7",
+        "laminas/laminas-mvc-plugin-flashmessenger": "^1.10",
+        "laminas/laminas-session": "^2.20",
+        "laminas/laminas-di": "^3.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gi\\LaminasAuth\\": "src/"
+        }
+    }
+}
