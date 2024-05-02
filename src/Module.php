@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace Application;
+namespace Gi\LaminasAuth;
 
-use Gi\LaminasAuth\AuthManager;
 use Laminas\EventManager\EventInterface;
 use Laminas\ModuleManager\Feature\BootstrapListenerInterface;
 use Laminas\ModuleManager\Feature\ConfigProviderInterface;
