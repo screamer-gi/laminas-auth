@@ -50,8 +50,8 @@ return [
         ],
     ],
     'view_manager' => [
-        'template_map'             => [
-            'application/auth/auth/login' => __DIR__ . '/../view/auth/login.phtml',
+        'template_map' => [
+            'gi/laminas-auth/auth/login' => __DIR__ . '/../view/auth/login.phtml',
         ],
     ],
     'session_config' => [
